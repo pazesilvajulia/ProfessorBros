@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=3 uid="uid://5vsjh7en80o1"]
+
+[ext_resource type="Texture2D" uid="uid://u7763knuevad" path="res://assets/sprites/bgMorte.png" id="1_y7u54"]
+[ext_resource type="Texture2D" uid="uid://j5bjbde2qrec" path="res://assets/sprites/ops-calouro-falhou.png" id="2_0ocv2"]
+[ext_resource type="Texture2D" uid="uid://b3xleyapb3tlh" path="res://assets/sprites/o-que-deseja-fazer.png" id="3_evl16"]
+[ext_resource type="Texture2D" uid="uid://d0se5ib7qdcla" path="res://assets/sprites/sair-do-jogo.png" id="4_fvipl"]
+[ext_resource type="Texture2D" uid="uid://20i0qqwsxmag" path="res://assets/sprites/tentar-novamente.png" id="5_pfg72"]
+
+[node name="telaMorte" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_y7u54")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(602, 309.99997)
+scale = Vector2(1.652778, 1.6527777)
+texture = ExtResource("2_0ocv2")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(600, 367)
+scale = Vector2(1.4999999, 1.5)
+texture = ExtResource("3_evl16")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(605, 476)
+scale = Vector2(1.3214289, 1.3214291)
+texture = ExtResource("4_fvipl")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(603, 421)
+scale = Vector2(1.4821428, 1.4821428)
+texture = ExtResource("5_pfg72")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 500.0
+offset_top = 405.0
+offset_right = 704.0
+offset_bottom = 435.0
+flat = true
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 541.0
+offset_top = 462.0
+offset_right = 666.0
+offset_bottom = 489.0
+flat = true
