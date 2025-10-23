@@ -2,8 +2,8 @@ extends Node
 
 var score = 0
 
-@onready var score_label = $/root/Game/UI/ScoreLabel
+@onready var score_label = $ScoreLabel
 
 func add_point():
 	score += 1
-	score_label.text = str(score) + " Catolica coins"
+	score_label.text = "You collected " + str(score) + " coins."
